@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MildFrontGlitch</title>
+    <link href="/static/styles/algebraone.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id='header'> Welcome to Algebra 1 </h1>
+    <form action="/todoodle" method="post">
+        <button id="todo" style=background-color:#522e02> Class To-Doodle </button>
+    </form>
+    <form action="/chatroom" method="post">
+        <button id="cr" style=background-color:#522e02> Have Questions? </button>
+      </form>
+    <form action="/action_page.php" enctype="multipart/form-data" name="add_file" id="fileForm">
+        <br>Upload a file to share your notes with classmates:</br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+        <input type="submit" id="add" value="Add"/>
+    </form>
+  </body>
+</html>

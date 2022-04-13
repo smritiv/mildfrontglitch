@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <label for="pen">Select a pen color:</label>
+      <input type="color" id="pen" name="pen" value="#ff0000">
+      <input type="submit" value = "Pick" onclick="changePen(document.getElementById('pen').value)">
+    </div>
+    
+    <div id="divider">
+      <canvas class="board" id="board"></canvas>
+    </div>
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>

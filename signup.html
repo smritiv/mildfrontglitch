@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sign Up</title>
+        <link href="/static/styles/signup.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <center><h1> Create your MildFrontGlitch account.</h1></center>
+        <div>
+            <form action="/adduser" method="post" name="form1">
+                Email: <input id="a" type="text" name="email" class="login"></br>
+                Username: <input type="text" name="username" placeholder="Create username" id="username" readonly>
+                <table>
+                    <th><div id="button" class="btn1" onclick="genUsername()">Generate Username</div></th>
+                    <th><a id="button" class="btn2" onclick="copyUsername()">Copy</a></th>
+                </table>
+                Password: <input id="password" type="password" name="password" placeholder="Create Password">
+                <button id="button" type="submit" title="Submit">Submit</button>
+            </form>
+        </div>
+        <form action="/login" method="post">
+            <button id="login"> Already have an account? Log In </button>
+        </form>
+    </body>
+    <script src="/static/jsfiles/signup.js"></script>
+</html>
