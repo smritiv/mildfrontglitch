@@ -1,0 +1,38 @@
+body{
+    background-color: #d9cbb2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+h1{
+    color: #522e02;
+  }
+div, h2, h1{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+input {
+  
+   user-select: none;
+   height:50px;
+   width: 300px;
+   
+   
+   outline: none;
+   font-size: 10px;
+   }
+ 
+#button:hover {
+  color: white;
+   background-color: black;
+   width: 50px;
+  height: 20px;
+  background-color: #522e02;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+#button {
+  width: 50px;
+  height: 20px;
+  background-color: #522e02;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }

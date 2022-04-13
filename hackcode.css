@@ -1,0 +1,127 @@
+#image {
+    margin: 20px auto;
+    max-width: 625px;
+    box-align: right;
+}
+
+.im1 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+.im2 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+.im3 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+.im4 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+.im5 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+.im6 {
+    border-radius: 0px;
+    background-color: rgb(187, 80, 98);
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 0.1%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8edff;
+}
+
+#wrapper{
+    border-radius: 6px;
+    width:auto;
+    margin: auto;
+    text-align: center;
+}
+
+#divider, #board{
+    width: 250px;
+    height: 250px;
+}
+
+#header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+#subhead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#task{
+    border-radius: 3px;
+    width:150px;
+    font-size: 20px;
+}
+#todos{
+    border-radius: 3px;
+    width:700px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#at{
+    font-family: Georgia;
+    font-size: medium;
+    text-align: center;
+    width:100px;
+}
+
+.complete{
+    background-color: green;
+    border-radius: 3px;
+    font-size: 20px;
+    float:right;
+    font-family: Georgia;
+}
+
+.delete{
+    background-color: orangered;
+    border-radius: 3px;
+    font-size: 20px;
+    float:right;
+    font-family: Georgia;
+}
+
+ol{
+    text-align:left;
+    line-height:35px;
+}

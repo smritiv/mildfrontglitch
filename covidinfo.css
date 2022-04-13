@@ -1,0 +1,61 @@
+body{
+    background-color: #d9cbb2;
+    padding-left:50px;
+  }
+  
+#avocado{
+    font-family: Impact;
+    font-size: 100px;
+    color: #522e02;
+    
+}
+
+/* there was wrapper code here- isn't working?? */
+  
+#description{
+    font-size: 40px;
+    font-family: Impact;
+    color: #522e02;
+}
+#info_table{
+    border-color: invisible;
+}
+  
+#discussion, #info, #games{
+    width: 200px;
+    height:60px;
+    font-size: 20px;
+    
+    font-family: Impact;
+    border-color: #522e02;
+    text-decoration: none;
+    
+}
+  
+#symptoms{
+    font-size: 30px;
+    font-family: Impact;
+    color: #522e02;
+    
+  }
+  
+li{
+    color: #522e02;
+    
+  }
+  
+  
+#guidelines{
+    width: 200px;
+    height:67px;
+    font-size: 25px;
+    color: gold;
+    
+    font-family: Impact;
+    border-color: #522e02;
+    text-decoration: none;
+    
+    border: 10px solid #522e02;
+  }
+  
+  

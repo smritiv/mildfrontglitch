@@ -1,0 +1,16 @@
+#todo, #cr{
+    width: 200px;
+    height:67px;
+    font-size: 22px;
+    color: gold;
+    font-family: Impact;
+    border-color: #522e02;
+    text-decoration: none;
+    border: 10px solid #522e02; 
+}
+
+#header{
+    font-family: Impact;
+    font-size: 100px;
+    color: #522e02;
+}
